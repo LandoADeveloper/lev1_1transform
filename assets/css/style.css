@@ -1,0 +1,21 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 25px;
+    margin: 50px 50px;
+
+}
+
+.transform {
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transform-origin: bottom left;
+
+}
+
+.transform:hover {
+    transform: rotateZ(90deg) scale(1.5,1.5);
+
+}
